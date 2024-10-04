@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run FastAPI Server",
+            "type": "shell",
+            "command": "/Users/brandonluismenesessolorzano/my_new_env/bin/python",
+            "args": [
+                "-m",
+                "uvicorn",
+                "main:app",
+                "--reload"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Ejecuta el microservicio FastAPI."
+        }
+    ]
+}
+
